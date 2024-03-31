@@ -1,2 +1,8 @@
 # StockPredictionTool
 A group project for Advanced AI Course  (CS-591) SEMO
+
+A machine learning model for stock market prediction using Support Vector Machines (SVM) and Radial Basis Function (RBF) kernel.
+
+Support Vector Machine (SVM) is a supervised learning algorithm used for classification and regression tasks. Its primary objective is to find the optimal hyperplane that best separates data points of different classes, maximizing the margin between the hyperplane and the closest data points (support vectors). SVM works well with linearly separable data and can handle non-linearly separable data using the kernel trick. It incorporates regularization to balance the trade-off between maximizing the margin and minimizing classification errors. SVM is effective in various applications due to its ability to generalize well and handle high-dimensional data efficiently.
+
+The Radial Basis Function (RBF) is a kernel function used in machine learning, particularly with Support Vector Machines (SVM), for classification and regression tasks. It maps input data into a higher-dimensional space, measuring the similarity between data points based on their distance in the original feature space. The RBF kernel is highly flexible, capable of capturing complex patterns in the data, and it adapts to various data distributions. It employs a hyperparameter called "gamma" to control the influence of each training example on the decision boundary. RBF kernel is commonly used in applications like image recognition and financial forecasting, where data exhibits non-linear relationships. Overall, RBF kernel enhances SVM's ability to handle non-linearly separable data and achieve high performance in diverse machine learning tasks.
